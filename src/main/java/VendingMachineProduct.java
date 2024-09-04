@@ -1,2 +1,15 @@
-package PACKAGE_NAME;public class VendingMachineProduct {
+
+public class VendingMachineProduct {
+    private int quantity;
+    public VendingMachineProduct(String name, double v, int quantity) {
+
+    }
+
+    public void setQuantity(int i) {
+
+    }
+
+    public int getQuantity() {
+    return quantity;
+    }
 }

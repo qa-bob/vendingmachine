@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface VendingMachine {
+public interface VendingMachine {
+    boolean isProductAvailable(VendingMachineProduct product);
+    void updateInventory(VendingMachineProduct product);
 }
